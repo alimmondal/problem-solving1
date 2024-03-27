@@ -1,20 +1,12 @@
-import { BestTimeToBuySellStock } from "./BestTimeToBuySellStock";
-import { FindAllDuplicatesInAnArray } from "./FindAllDuplicates";
-import { MajorityElement } from "./MajorityElement";
-import { MoveZeroes } from "./MoveZeroes";
-import { RemoveDuplicatesFromSortedArray } from "./RemoveDuplicate";
+import { findMinMaxNumber } from "./FindMinMax";
+import { filterOutStringsFromArray } from "./Question2";
+import { functionSortByLengthAscending } from "./Question3";
 
-// PW2.01.016
-RemoveDuplicatesFromSortedArray();
+// Question:1
+// findMinMaxNumber();
 
-// PW2.01.017
-MoveZeroes();
+// Question:2
+filterOutStringsFromArray();
 
-// PW2.01.018
-MajorityElement();
-
-// PW2.01.019
-BestTimeToBuySellStock();
-
-// PW2.01.020
-FindAllDuplicatesInAnArray();
+// Question: 3
+functionSortByLengthAscending();
